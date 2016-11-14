@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIView *test1View;
+
+- (IBAction)test1BtnClick:(UIButton *)sender;
+
 
 @end
 

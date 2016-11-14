@@ -13,8 +13,8 @@
 		397C0E711DD572790019375E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397C0E6F1DD572790019375E /* Main.storyboard */; };
 		397C0E731DD572790019375E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 397C0E721DD572790019375E /* Assets.xcassets */; };
 		397C0E761DD572790019375E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397C0E741DD572790019375E /* LaunchScreen.storyboard */; };
-		397C0E811DD572790019375E /* animationTest1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 397C0E801DD572790019375E /* animationTest1Tests.m */; };
-		397C0E8C1DD572790019375E /* animationTest1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 397C0E8B1DD572790019375E /* animationTest1UITests.m */; };
+		397C0E811DD572790019375E /* CFFanimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 397C0E801DD572790019375E /* CFFanimationDemoTests.m */; };
+		397C0E8C1DD572790019375E /* CFFanimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 397C0E8B1DD572790019375E /* CFFanimationDemoUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,19 +23,19 @@
 			containerPortal = 397C0E5B1DD572790019375E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 397C0E621DD572790019375E;
-			remoteInfo = animationTest1;
+			remoteInfo = CFFanimationDemo;
 		};
 		397C0E881DD572790019375E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 397C0E5B1DD572790019375E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 397C0E621DD572790019375E;
-			remoteInfo = animationTest1;
+			remoteInfo = CFFanimationDemo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		397C0E631DD572790019375E /* animationTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animationTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		397C0E631DD572790019375E /* CFFanimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFFanimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		397C0E671DD572790019375E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		397C0E691DD572790019375E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		397C0E6A1DD572790019375E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,11 +45,11 @@
 		397C0E721DD572790019375E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		397C0E751DD572790019375E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		397C0E771DD572790019375E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		397C0E7C1DD572790019375E /* animationTest1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animationTest1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		397C0E801DD572790019375E /* animationTest1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = animationTest1Tests.m; sourceTree = "<group>"; };
+		397C0E7C1DD572790019375E /* CFFanimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFFanimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		397C0E801DD572790019375E /* CFFanimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFFanimationDemoTests.m; sourceTree = "<group>"; };
 		397C0E821DD572790019375E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		397C0E871DD572790019375E /* animationTest1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animationTest1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		397C0E8B1DD572790019375E /* animationTest1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = animationTest1UITests.m; sourceTree = "<group>"; };
+		397C0E871DD572790019375E /* CFFanimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFFanimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		397C0E8B1DD572790019375E /* CFFanimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFFanimationDemoUITests.m; sourceTree = "<group>"; };
 		397C0E8D1DD572790019375E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,9 +81,9 @@
 		397C0E5A1DD572790019375E = {
 			isa = PBXGroup;
 			children = (
-				397C0E651DD572790019375E /* animationTest1 */,
-				397C0E7F1DD572790019375E /* animationTest1Tests */,
-				397C0E8A1DD572790019375E /* animationTest1UITests */,
+				397C0E651DD572790019375E /* CFFanimationDemo */,
+				397C0E7F1DD572790019375E /* CFFanimationDemoTests */,
+				397C0E8A1DD572790019375E /* CFFanimationDemoUITests */,
 				397C0E641DD572790019375E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,14 +91,14 @@
 		397C0E641DD572790019375E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				397C0E631DD572790019375E /* animationTest1.app */,
-				397C0E7C1DD572790019375E /* animationTest1Tests.xctest */,
-				397C0E871DD572790019375E /* animationTest1UITests.xctest */,
+				397C0E631DD572790019375E /* CFFanimationDemo.app */,
+				397C0E7C1DD572790019375E /* CFFanimationDemoTests.xctest */,
+				397C0E871DD572790019375E /* CFFanimationDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		397C0E651DD572790019375E /* animationTest1 */ = {
+		397C0E651DD572790019375E /* CFFanimationDemo */ = {
 			isa = PBXGroup;
 			children = (
 				397C0E691DD572790019375E /* AppDelegate.h */,
@@ -111,7 +111,7 @@
 				397C0E771DD572790019375E /* Info.plist */,
 				397C0E661DD572790019375E /* Supporting Files */,
 			);
-			path = animationTest1;
+			path = CFFanimationDemo;
 			sourceTree = "<group>";
 		};
 		397C0E661DD572790019375E /* Supporting Files */ = {
@@ -122,30 +122,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		397C0E7F1DD572790019375E /* animationTest1Tests */ = {
+		397C0E7F1DD572790019375E /* CFFanimationDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				397C0E801DD572790019375E /* animationTest1Tests.m */,
+				397C0E801DD572790019375E /* CFFanimationDemoTests.m */,
 				397C0E821DD572790019375E /* Info.plist */,
 			);
-			path = animationTest1Tests;
+			path = CFFanimationDemoTests;
 			sourceTree = "<group>";
 		};
-		397C0E8A1DD572790019375E /* animationTest1UITests */ = {
+		397C0E8A1DD572790019375E /* CFFanimationDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				397C0E8B1DD572790019375E /* animationTest1UITests.m */,
+				397C0E8B1DD572790019375E /* CFFanimationDemoUITests.m */,
 				397C0E8D1DD572790019375E /* Info.plist */,
 			);
-			path = animationTest1UITests;
+			path = CFFanimationDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		397C0E621DD572790019375E /* animationTest1 */ = {
+		397C0E621DD572790019375E /* CFFanimationDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 397C0E901DD572790019375E /* Build configuration list for PBXNativeTarget "animationTest1" */;
+			buildConfigurationList = 397C0E901DD572790019375E /* Build configuration list for PBXNativeTarget "CFFanimationDemo" */;
 			buildPhases = (
 				397C0E5F1DD572790019375E /* Sources */,
 				397C0E601DD572790019375E /* Frameworks */,
@@ -155,14 +155,14 @@
 			);
 			dependencies = (
 			);
-			name = animationTest1;
-			productName = animationTest1;
-			productReference = 397C0E631DD572790019375E /* animationTest1.app */;
+			name = CFFanimationDemo;
+			productName = CFFanimationDemo;
+			productReference = 397C0E631DD572790019375E /* CFFanimationDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		397C0E7B1DD572790019375E /* animationTest1Tests */ = {
+		397C0E7B1DD572790019375E /* CFFanimationDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 397C0E931DD572790019375E /* Build configuration list for PBXNativeTarget "animationTest1Tests" */;
+			buildConfigurationList = 397C0E931DD572790019375E /* Build configuration list for PBXNativeTarget "CFFanimationDemoTests" */;
 			buildPhases = (
 				397C0E781DD572790019375E /* Sources */,
 				397C0E791DD572790019375E /* Frameworks */,
@@ -173,14 +173,14 @@
 			dependencies = (
 				397C0E7E1DD572790019375E /* PBXTargetDependency */,
 			);
-			name = animationTest1Tests;
-			productName = animationTest1Tests;
-			productReference = 397C0E7C1DD572790019375E /* animationTest1Tests.xctest */;
+			name = CFFanimationDemoTests;
+			productName = CFFanimationDemoTests;
+			productReference = 397C0E7C1DD572790019375E /* CFFanimationDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		397C0E861DD572790019375E /* animationTest1UITests */ = {
+		397C0E861DD572790019375E /* CFFanimationDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 397C0E961DD572790019375E /* Build configuration list for PBXNativeTarget "animationTest1UITests" */;
+			buildConfigurationList = 397C0E961DD572790019375E /* Build configuration list for PBXNativeTarget "CFFanimationDemoUITests" */;
 			buildPhases = (
 				397C0E831DD572790019375E /* Sources */,
 				397C0E841DD572790019375E /* Frameworks */,
@@ -191,9 +191,9 @@
 			dependencies = (
 				397C0E891DD572790019375E /* PBXTargetDependency */,
 			);
-			name = animationTest1UITests;
-			productName = animationTest1UITests;
-			productReference = 397C0E871DD572790019375E /* animationTest1UITests.xctest */;
+			name = CFFanimationDemoUITests;
+			productName = CFFanimationDemoUITests;
+			productReference = 397C0E871DD572790019375E /* CFFanimationDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -224,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 397C0E5E1DD572790019375E /* Build configuration list for PBXProject "animationTest1" */;
+			buildConfigurationList = 397C0E5E1DD572790019375E /* Build configuration list for PBXProject "CFFanimationDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -237,9 +237,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				397C0E621DD572790019375E /* animationTest1 */,
-				397C0E7B1DD572790019375E /* animationTest1Tests */,
-				397C0E861DD572790019375E /* animationTest1UITests */,
+				397C0E621DD572790019375E /* CFFanimationDemo */,
+				397C0E7B1DD572790019375E /* CFFanimationDemoTests */,
+				397C0E861DD572790019375E /* CFFanimationDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,7 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				397C0E811DD572790019375E /* animationTest1Tests.m in Sources */,
+				397C0E811DD572790019375E /* CFFanimationDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				397C0E8C1DD572790019375E /* animationTest1UITests.m in Sources */,
+				397C0E8C1DD572790019375E /* CFFanimationDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,12 +303,12 @@
 /* Begin PBXTargetDependency section */
 		397C0E7E1DD572790019375E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 397C0E621DD572790019375E /* animationTest1 */;
+			target = 397C0E621DD572790019375E /* CFFanimationDemo */;
 			targetProxy = 397C0E7D1DD572790019375E /* PBXContainerItemProxy */;
 		};
 		397C0E891DD572790019375E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 397C0E621DD572790019375E /* animationTest1 */;
+			target = 397C0E621DD572790019375E /* CFFanimationDemo */;
 			targetProxy = 397C0E881DD572790019375E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -428,9 +428,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EDA8EGULN6;
-				INFOPLIST_FILE = animationTest1/Info.plist;
+				INFOPLIST_FILE = CFFanimationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jointsky.animationTest1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jointsky.CFFanimationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -440,9 +440,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EDA8EGULN6;
-				INFOPLIST_FILE = animationTest1/Info.plist;
+				INFOPLIST_FILE = CFFanimationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jointsky.animationTest1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jointsky.CFFanimationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -452,11 +452,11 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = EDA8EGULN6;
-				INFOPLIST_FILE = animationTest1Tests/Info.plist;
+				INFOPLIST_FILE = CFFanimationDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jointsky.animationTest1Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jointsky.CFFanimationDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/animationTest1.app/animationTest1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFFanimationDemo.app/CFFanimationDemo";
 			};
 			name = Debug;
 		};
@@ -465,11 +465,11 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = EDA8EGULN6;
-				INFOPLIST_FILE = animationTest1Tests/Info.plist;
+				INFOPLIST_FILE = CFFanimationDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jointsky.animationTest1Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jointsky.CFFanimationDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/animationTest1.app/animationTest1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFFanimationDemo.app/CFFanimationDemo";
 			};
 			name = Release;
 		};
@@ -477,11 +477,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = EDA8EGULN6;
-				INFOPLIST_FILE = animationTest1UITests/Info.plist;
+				INFOPLIST_FILE = CFFanimationDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jointsky.animationTest1UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jointsky.CFFanimationDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = animationTest1;
+				TEST_TARGET_NAME = CFFanimationDemo;
 			};
 			name = Debug;
 		};
@@ -489,18 +489,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = EDA8EGULN6;
-				INFOPLIST_FILE = animationTest1UITests/Info.plist;
+				INFOPLIST_FILE = CFFanimationDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jointsky.animationTest1UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jointsky.CFFanimationDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = animationTest1;
+				TEST_TARGET_NAME = CFFanimationDemo;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		397C0E5E1DD572790019375E /* Build configuration list for PBXProject "animationTest1" */ = {
+		397C0E5E1DD572790019375E /* Build configuration list for PBXProject "CFFanimationDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				397C0E8E1DD572790019375E /* Debug */,
@@ -509,29 +509,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		397C0E901DD572790019375E /* Build configuration list for PBXNativeTarget "animationTest1" */ = {
+		397C0E901DD572790019375E /* Build configuration list for PBXNativeTarget "CFFanimationDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				397C0E911DD572790019375E /* Debug */,
 				397C0E921DD572790019375E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		397C0E931DD572790019375E /* Build configuration list for PBXNativeTarget "animationTest1Tests" */ = {
+		397C0E931DD572790019375E /* Build configuration list for PBXNativeTarget "CFFanimationDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				397C0E941DD572790019375E /* Debug */,
 				397C0E951DD572790019375E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		397C0E961DD572790019375E /* Build configuration list for PBXNativeTarget "animationTest1UITests" */ = {
+		397C0E961DD572790019375E /* Build configuration list for PBXNativeTarget "CFFanimationDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				397C0E971DD572790019375E /* Debug */,
 				397C0E981DD572790019375E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
